@@ -1,0 +1,294 @@
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+  }
+  
+  body, p, button, nav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  button {
+    font-family: inherit;
+  } 
+  /* /__________________HEADER_________________/ */
+  .header {
+}
+.header-navigation {
+}
+.header-logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+.header-menu-list {
+}
+.header-menu-item
+ {
+}
+.header-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+   color: #D78F65
+}
+.header-soc-list {
+}
+.header-soc-item {
+}
+.header-soc-link {
+}
+/* /____________________HERO___________________/ */
+.hero {
+}
+
+.hero-title {
+  font-size: 35px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.hero-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;    
+
+}
+
+.hero-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+
+/* /____________________ABOUT___________________/ */
+
+.about-title {
+}
+
+.about-picture {
+}
+
+.about-subtitle {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+.about-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111; 
+    }
+
+/* /____________________CATALOG___________________/ */
+    .catalog {
+    }
+
+    .catalog-title {
+   font-size: 35px;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+   color: #111;
+    }
+
+    .catalog-buttons {
+    }
+
+    .catalog-button {
+    }
+
+    .catalog-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+    }   
+    .catalog-subtitle:hover,
+    .catalog-subtitle:focus {
+       color: #D78F65
+    }
+/* /____________________REVIEWS___________________/ */
+    .reviews {
+    }
+
+    .reviews-title {
+     font-size: 35px;
+     line-height: 1.29;
+     letter-spacing: -0.02em;
+     color: #111;
+    }
+
+    .reviews-list {
+    }
+    .reviews-item {
+    }
+    .reviews-picture {
+    }
+    .reviews-subtitle {
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 1.14;
+     letter-spacing: -0.02em;
+     color: #111;
+
+    }
+    .reviews-text {
+     font-size: 18px;
+     line-height: 1.29;
+     letter-spacing: -0.02em;
+     color: #111;
+    }
+
+/* ____________________ORDER___________________ */
+
+    .order {
+    }
+
+    .order-title {
+     font-size: 35px;
+     line-height: 1.29;
+     letter-spacing: -0.02em;
+     color: #111;
+    }
+
+    .order-list {
+    }
+
+    .order-item {
+        
+    }
+
+    .order-scroll {
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 1.14;
+     letter-spacing: -0.02em;
+     color: #111;
+
+    }
+
+    .order-scroll:hover,
+    .order-scroll:focus {
+       color: #D78F65
+    }
+
+    .order-form-btn {
+     font-weight: 600;
+     font-size: 18px;
+     color: #111;
+    }
+
+    .order-text{
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 1.14;
+     letter-spacing: -0.02em;
+     color: #111;   
+    }
+/* ____________________FOOTER___________________ */
+    .footer {
+    }
+
+    .footer-title {
+        font-family: 'Dancing Script', cursive;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #111;
+    }
+
+    .footer-subtitle {
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.29;
+     text-align: center;
+     color: #111;
+    }
+
+    .footer-address {
+    }
+
+    .footer-list {
+    }
+
+    .footer-item {
+    }
+
+    .footer-contact {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111;
+    }
+
+    .footer-nav {
+    }
+
+    .footer-nav-list {
+    }
+
+    .footer-nav-item {
+    }
+    
+    .footer-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+    }
+
+    .foorer-soc-list {
+    }
+
+    .footer-soc-item {
+    }
+
+    .footer-soc-link {
+    }
+
+    .footer-btn {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
+
+    }
+
+   
