@@ -9,8 +9,22 @@ h1, h2 {
   }
   ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
   }
   
+  p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
   a {
     text-decoration: none;
   }
@@ -18,12 +32,25 @@ h1, h2 {
   address {
     font-style: normal;
   }
+
+  
   
   button {
     font-family: inherit;
   } 
+
+  .container{
+  
+    width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
   /* /__________________HEADER_________________/ */
   .header {
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 .header-navigation {
 }
@@ -59,6 +86,10 @@ h1, h2 {
 }
 /* /____________________HERO___________________/ */
 .hero {
+  background-color: #F5E3D6;
+  border-radius: 30px;
+  padding-top: 381px;
+  padding-bottom: 40px;
 }
 
 .hero-title {
@@ -66,6 +97,7 @@ h1, h2 {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111;
+  margin-bottom: 32px;
 }
 
 .hero-text {
@@ -73,6 +105,7 @@ h1, h2 {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111;
+  margin-bottom: 28px;
 }
 
 .hero-link{
@@ -92,7 +125,12 @@ h1, h2 {
 
 /* /____________________ABOUT___________________/ */
 
+.about{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .about-title {
+ 
 }
 
 .about-picture {
@@ -105,7 +143,9 @@ h1, h2 {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111;
+  margin-bottom: 30px;
 }
+
 .about-text {
   font-weight: 500;
   font-size: 20px;
@@ -116,6 +156,8 @@ h1, h2 {
 
 /* /____________________CATALOG___________________/ */
     .catalog {
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
     .catalog-title {
@@ -123,15 +165,16 @@ h1, h2 {
    line-height: 1.29;
    letter-spacing: -0.02em;
    color: #111;
+   margin-bottom: 28px;
     }
 
-    .catalog-buttons {
+    .catalog-item{
+      border: 1px solid #fd9222;
+      border-radius: 15px;
+      padding: 28px 32px; 
     }
 
-    .catalog-button {
-    }
-
-    .catalog-subtitle {
+   .catalog-subtitle {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.14;
@@ -143,7 +186,10 @@ h1, h2 {
        color: #D78F65
     }
 /* /____________________REVIEWS___________________/ */
+
     .reviews {
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
     .reviews-title {
@@ -151,6 +197,7 @@ h1, h2 {
      line-height: 1.29;
      letter-spacing: -0.02em;
      color: #111;
+     margin-bottom: 28px;
     }
 
     .reviews-list {
@@ -158,25 +205,31 @@ h1, h2 {
     .reviews-item {
     }
     .reviews-picture {
+      border-radius: 50%;
     }
     .reviews-subtitle {
      font-weight: 500;
      font-size: 18px;
      line-height: 1.14;
      letter-spacing: -0.02em;
+     text-align: center;
      color: #111;
+     margin-bottom: 28px;
 
     }
     .reviews-text {
      font-size: 18px;
      line-height: 1.29;
      letter-spacing: -0.02em;
+     text-align: center;
      color: #111;
     }
 
 /* ____________________ORDER___________________ */
 
     .order {
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
     .order-title {
@@ -184,6 +237,7 @@ h1, h2 {
      line-height: 1.29;
      letter-spacing: -0.02em;
      color: #111;
+     margin-bottom: 32px;
     }
 
     .order-list {

@@ -26,172 +26,188 @@ href="./css/styles.css"
 </head>
 <body>
     <header class="header">
-        <nav class="header-navigation">
-            <a class="header-logo" href="">jute workshop
-                <img src="./img/bean-logo.webp" alt="logo"
-                width="55"
-                height="55"
-                />
-            </a>
-            <ul class="header-menu-list">
-                <li class="header-menu-item
-                "><a class="header-menu-link" href="">Home</a></li>
-                <li class="header-menu-item
-                "><a class="header-menu-link" href="">About</a></li>
-                <li class="header-menu-item
-                "><a class="header-menu-link" href="">Products</a></li>
-                <li class="header-menu-item
-                "><a class="header-menu-link" href="">Reviews</a></li>
-                <li class="header-menu-item
-                "><a class="header-menu-link" href="">Contact</a></li>
+        <div class="container">
+            <nav class="header-navigation">
+                <a class="header-logo" href="">jute workshop
+                    <img src="./img/bean-logo.webp" alt="logo"
+                    width="55"
+                    height="55"
+                    />
+                </a>
+                <ul class="header-menu-list">
+                    <li class="header-menu-item
+                    "><a class="header-menu-link" href="">Home</a></li>
+                    <li class="header-menu-item
+                    "><a class="header-menu-link" href="">About</a></li>
+                    <li class="header-menu-item
+                    "><a class="header-menu-link" href="">Products</a></li>
+                    <li class="header-menu-item
+                    "><a class="header-menu-link" href="">Reviews</a></li>
+                    <li class="header-menu-item
+                    "><a class="header-menu-link" href="">Contact</a></li>
+                </ul>
+            </nav>
+            <ul class="header-soc-list">
+                <li class="header-soc-item"><a class="header-soc-link" href="https://www.instagram.com/jw_bean/" target="_blank" rel="noopener noreferrer">Insta</a>
+                </li>
+                <li class="header-soc-item"><a class="header-soc-link" href="https://www.etsy.com/shop/BeanJuteWorkshop?ref=seller-platform-mcnav&section_id=40928476&fbclid=PAZXh0bgNhZW0CMTEAAaeHRYKbElM7BPaZgzAK2DAfWLc637gg_F0quqedvkPNi1-mwEpa-F9l-fZIhg_aem_dLyDRL1y7L6NDopzpvenJw" target="_blank" rel="noopener noreferrer">Etsy</a>
+                </li>
             </ul>
-        </nav>
-        <ul class="header-soc-list">
-            <li class="header-soc-item"><a class="header-soc-link" href="https://www.instagram.com/jw_bean/" target="_blank" rel="noopener noreferrer">Insta</a>
-            </li>
-            <li class="header-soc-item"><a class="header-soc-link" href="https://www.etsy.com/shop/BeanJuteWorkshop?ref=seller-platform-mcnav&section_id=40928476&fbclid=PAZXh0bgNhZW0CMTEAAaeHRYKbElM7BPaZgzAK2DAfWLc637gg_F0quqedvkPNi1-mwEpa-F9l-fZIhg_aem_dLyDRL1y7L6NDopzpvenJw" target="_blank" rel="noopener noreferrer">Etsy</a>
-            </li>
-        </ul>
+        </div>
 </header>
 <main>
     <section class="hero">
-        <h1 class="hero-title">Inspiration in every thread</h1>
-        <p class="hero-text">Handmade accessories from 100% jute — crafted with care for your home & soul.
-
-        </p>
-        <a class="hero-link" href="#made">View the catalog</a>
-        <button class="hero-btn" type="button">Get in touch</button>
+        <div class="container">
+            <h1 class="hero-title">Inspiration in every thread</h1>
+            <p class="hero-text">Handmade accessories from 100% jute — crafted with care for your home & soul.
+    
+            </p>
+            <a class="hero-link" href="#made">View the catalog</a>
+            <button class="hero-btn" type="button">Get in touch</button>
+        </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2 class="about-title" hidden>About</h2>
+                <img class="about-picture" src="./img/Iryna.webp" alt="Iryna"
+                width="160"
+                height="160">
+                <h3 class="about-subtitle">With love for nature</h3>
+                <p class="about-text">Hello! My name is Iryna. I create accessories from jute — 
+                    an ecological, natural and very soulful material. 
+                    Each product is unique and filled with the warmth of handmade work
+                </p>
+            
+            </div>
     </section>
-    <section>
-        <h2 class="about-title" hidden>About</h2>
-        <img class="about-picture" src="./img/Iryna.webp" alt="Iryna"
-        width="160"
-        height="160">
-        <h3 class="about-subtitle">With love for nature</h3>
-        <p class="about-text">Hello! My name is Iryna. I create accessories from jute — 
-            an ecological, natural and very soulful material. 
-            Each product is unique and filled with the warmth of handmade work
-        </p>
-    </section>
+    
     <section class="catalog" id="products">
-        <h2 class="catalog-title">Our products</h2>
-        <div class="catalog-buttons">
-            <a href="#bags" class="catalog-button">
-                <img src="./img/bags.jpg" alt="bags"
-                width="80"
-                height="60">
-                <span class="catalog-subtitle">Bags</span>
+        <div class="container">
+          <h2 class="catalog-title">Our products</h2>
+          <ul class="catalog-list">
+            <li class="catalog-item">
+              <a href="#bags" class="catalog-link">
+                <img src="./img/bags.jpg" alt="bags" width="80" height="60">
+                <h3 class="catalog-subtitle">Bags</h3>
               </a>
-            <a href="#baskets" class="catalog-button">
-                <img src="./img/baskets.jpg" alt="baskets"
-                width="80"
-                height="60">
-                <span class="catalog-subtitle">Baskets</span>
+            </li>
+            <li class="catalog-item">
+              <a href="#baskets" class="catalog-link">
+                <img src="./img/baskets.jpg" alt="baskets" width="80" height="60">
+                <h3 class="catalog-subtitle">Baskets</h3>
               </a>
-            <a href="#home-decor" class="catalog-button">
-                <img src="./img/homedecor.jpg" alt="Home decor"
-                width="80"
-                height="60">
-                <span class="catalog-subtitle">Home decor</span>
+            </li>
+            <li class="catalog-item">
+              <a href="#pendant" class="catalog-link">
+                <img src="./img/homedecor.jpg" alt="Pendant" width="80" height="60">
+                <h3 class="catalog-subtitle">Pendant</h3>
               </a>
-            <a href="#gifts" class="catalog-button">
-                <img src="./img/giftsets.jpg" alt="gifts"
-                width="80"
-                height="60">
-                <span class="catalog-subtitle">Gifts</span>
+            </li>
+            <li class="catalog-item">
+              <a href="#gifts" class="catalog-link">
+                <img src="./img/giftsets.jpg" alt="gifts" width="80" height="60">
+                <h3 class="catalog-subtitle">Gifts</h3>
               </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    <section class="reviews">
+       <div class="container">
+            <h2 class="reviews-title">Kind words from our customers</h2>
+            <ul class="reviews-list">
+                <li class="reviews-item">
+                    <img class="reviews-picture" src="./img/Grace.webp" alt="Grace"
+                    width="64"
+                    height="64">
+                        <h3 class="reviews-subtitle">Grace</h3>
+                        <p class="reviews-text">Excellent quality, great customer service and great arrival time. 
+                            Exceptional service! Thank you!
+                        </p>
+                    </img>
+                </li>
+                <li class="reviews-item">
+                    <img class="reviews-picture" src="./img/Mari.webp" alt="Mari">
+                        <h3 class="reviews-subtitle">Mari</h3>
+                        <p class="reviews-text">This bag is fabulous. Well made and quite sturdy. It looks and feels high end. I can see it becoming a summer/travel favorite for me. 
+                            Per my request Iryna added an interior pocket. She was thoughtful and answer all my questions with pictures and additional information.
+                        </p>
+                    </img>
+                </li>
+                <li class="reviews-item">
+                    <img class="reviews-picture" src="./img/cherylziegler.webp" alt="Barbara">
+                        <h3 class="reviews-subtitle">Barbara</h3>
+                        <p class="reviews-text">My order came very fast , quality is great , size is perfect , design is simple and easy to install! 
+                            It looks even better then picture ! Im very happy with my purchase and will buy from this seller again!
+                        </p>
+                    </img>
+                </li>
+            </ul>
        </div>
     </section>
-    <section class="reviews">
-        <h2 class="reviews-title">Kind words from our customers</h2>
-        <ul class="reviews-list">
-            <li class="reviews-item">
-                <img class="reviews-picture" src="./img/Grace.webp" alt="Grace"
-                width="64"
-                height="64">
-                    <h3 class="reviews-subtitle">Grace</h3>
-                    <p class="reviews-text">Excellent quality, great customer service and great arrival time. 
-                        Exceptional service! Thank you!
-                    </p>
-                </img>
-            </li>
-            <li class="reviews-item">
-                <img class="reviews-picture" src="./img/Mari.webp" alt="Mari">
-                    <h3 class="reviews-subtitle">Mari</h3>
-                    <p class="reviews-text">This bag is fabulous. Well made and quite sturdy. It looks and feels high end. I can see it becoming a summer/travel favorite for me. 
-                        Per my request Iryna added an interior pocket. She was thoughtful and answer all my questions with pictures and additional information.
-                    </p>
-                </img>
-            </li>
-            <li class="reviews-item">
-                <img class="reviews-picture" src="./img/cherylziegler.webp" alt="Barbara">
-                    <h3 class="reviews-subtitle">Barbara</h3>
-                    <p class="reviews-text">My order came very fast , quality is great , size is perfect , design is simple and easy to install! 
-                        It looks even better then picture ! Im very happy with my purchase and will buy from this seller again!
-                    </p>
-                </img>
-            </li>
-        </ul>
-    </section>
 <section class="order">
-    <h2 class="order-title">It's easy to order</h2>
-    <ul class="order-list">
-      <li class="order-item">
-        <a href="#products" class="order-scroll">Choose a product
-
-        </a>
-    </li>
-      <li class="order-item">
-        <button id="toggleFormBtn" class="order-form-btn">Write to us or fill out the form
-
-        </button>
-    </li>
-      <li class="order-item"><p class="order-text">Wait for your warm order</p></li>
-    </ul>
-<!--   
-    <form id="orderForm" action="/send-order" method="POST" class="hidden-form">
-      <label for="product">Назва виробу:</label>
-      <input type="text" id="product" name="product" required>
-  
-      <label for="name">Ваше ім’я:</label>
-      <input type="text" id="name" name="name" required>
-  
-      <label for="contact">Email або телефон:</label>
-      <input type="text" id="contact" name="contact" required>
-  
-      <button type="submit">Замовити</button>
-    </form> -->
+   <div class="container">
+        <h2 class="order-title">It's easy to order</h2>
+        <ul class="order-list">
+          <li class="order-item">
+            <a href="#products" class="order-scroll">Choose a product
+    
+            </a>
+        </li>
+          <li class="order-item">
+            <button id="toggleFormBtn" class="order-form-btn">Write to us or fill out the form
+    
+            </button>
+        </li>
+          <li class="order-item"><p class="order-text">Wait for your warm order</p></li>
+        </ul>
+    <!--   
+        <form id="orderForm" action="/send-order" method="POST" class="hidden-form">
+          <label for="product">Назва виробу:</label>
+          <input type="text" id="product" name="product" required>
+      
+          <label for="name">Ваше ім’я:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="contact">Email або телефон:</label>
+          <input type="text" id="contact" name="contact" required>
+      
+          <button type="submit">Замовити</button>
+        </form> -->
+   </div>
   </section>
   </main>
 <footer class="footer">
-    <p class="footer-title">Handmade with love, bringing joy to every moment</p>
-    <p class="footer-subtitle">Contact us</p>
-        <address class="footer-address">
-            <ul class="footer-list">
-                <li class="footer-item">
-                    <a class="footer-contact" href="tel:+48887827858">+48 887-827-858</a>
-                </li>
-           <li class="footer-item">
-            <a class="footer-contact" href="mailto:irina.lavronenko85@gmail.com ">irina.lavronenko85@gmail.com </a>
-           </li>
+   <div class="container">
+        <p class="footer-title">Handmade with love, bringing joy to every moment</p>
+        <p class="footer-subtitle">Contact us</p>
+            <address class="footer-address">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a class="footer-contact" href="tel:+48887827858">+48 887-827-858</a>
+                    </li>
+               <li class="footer-item">
+                <a class="footer-contact" href="mailto:irina.lavronenko85@gmail.com ">irina.lavronenko85@gmail.com </a>
+               </li>
+                </ul>
+            </address>
+            <nav class="footer-nav">
+            <ul class="footer-nav-list">
+                <li class="footer-nav-item"><a class="footer-nav-link" href="">Home</a></li>
+                <li class="footer-nav-item"><a class="footer-nav-link" href="">About</a></li>
+                <li class="footer-nav-item"><a class="footer-nav-link" href="">Products</a></li>
+                <li class="footer-nav-item"><a class="footer-nav-link" href="">Reviews</a></li>
+                <li class="footer-nav-item"><a class="footer-nav-link" href="">Contact</a></li>
             </ul>
-        </address>
-        <nav class="footer-nav">
-        <ul class="footer-nav-list">
-            <li class="footer-nav-item"><a class="footer-nav-link" href="">Home</a></li>
-            <li class="footer-nav-item"><a class="footer-nav-link" href="">About</a></li>
-            <li class="footer-nav-item"><a class="footer-nav-link" href="">Products</a></li>
-            <li class="footer-nav-item"><a class="footer-nav-link" href="">Reviews</a></li>
-            <li class="footer-nav-item"><a class="footer-nav-link" href="">Contact</a></li>
+        </nav>
+        <ul class="foorer-soc-list">
+            <li class="footer-soc-item"><a class="footer-soc-link" href="https://www.instagram.com/jw_bean/" target="_blank" rel="noopener noreferrer">Insta</a>
+            </li>
+            <li class="footer-soc-item"><a class="footer-soc-link" href="https://www.etsy.com/shop/BeanJuteWorkshop?ref=seller-platform-mcnav&section_id=40928476&fbclid=PAZXh0bgNhZW0CMTEAAaeHRYKbElM7BPaZgzAK2DAfWLc637gg_F0quqedvkPNi1-mwEpa-F9l-fZIhg_aem_dLyDRL1y7L6NDopzpvenJw" target="_blank" rel="noopener noreferrer">Etsy</a>
+            </li>
         </ul>
-    </nav>
-    <ul class="foorer-soc-list">
-        <li class="footer-soc-item"><a class="footer-soc-link" href="https://www.instagram.com/jw_bean/" target="_blank" rel="noopener noreferrer">Insta</a>
-        </li>
-        <li class="footer-soc-item"><a class="footer-soc-link" href="https://www.etsy.com/shop/BeanJuteWorkshop?ref=seller-platform-mcnav&section_id=40928476&fbclid=PAZXh0bgNhZW0CMTEAAaeHRYKbElM7BPaZgzAK2DAfWLc637gg_F0quqedvkPNi1-mwEpa-F9l-fZIhg_aem_dLyDRL1y7L6NDopzpvenJw" target="_blank" rel="noopener noreferrer">Etsy</a>
-        </li>
-    </ul>
-    <button class="footer-btn" type="submit">Subscribe</button>
+        <button class="footer-btn" type="submit">Subscribe</button>
+   </div>
 </footer>
 </body>
 </html>
